@@ -1,10 +1,10 @@
-class Pages < ApplicationController
+class PagesController < ApplicationController
 
   def home
 
   end
 
-  def abort
+  def about
 
   end
 
