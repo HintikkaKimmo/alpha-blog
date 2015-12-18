@@ -39,4 +39,22 @@ background-size: cover;
   background-color: #00b300;
 }
 
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777777;
+}
 
+footer a:hover {
+  color: #222222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
