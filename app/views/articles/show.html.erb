@@ -1,7 +1,7 @@
 <h2 align="center" Title <%= @article.title %></h2>
 <div class="well col-xs-8 col-xs-2">
   <h4 class="center description"><strong>Description:</strong></h4>
-  <%= simple_format(@article.description) %>
+  <h5><%= simple_format(@article.description) %></h5>
   <div class="article-actions">
     <%= link_to 'Edit this article', edit_article_path(@article), class: "btn btn-xs btn-primary" %>
     <%= link_to "Delete this article", articles_path(@article), method: :delete,
