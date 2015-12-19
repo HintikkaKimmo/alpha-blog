@@ -1,1 +1,1 @@
-This small blog systems build to learn ruby rails again. 
+This small blog systems build to learn ruby rails again.
